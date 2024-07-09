@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blocks</title>
+</head>
+<body>
+     <button style="background: chartreuse; width: 200px; height: 50px; text-align: center;">
+        <a href="blok_list" style="color: black; font-size: 20px; text-decoration: none;">
+            List Block
+        </a>
+    </button>
+     <br><br>
+
+    <button style="background: chartreuse; width: 200px; height: 50px; text-align: center;">
+        <a href="create" style="color: black; font-size: 20px; text-decoration: none;">
+            Create Block
+        </a>
+    </button>
+    <br><br>
+    <button style="background: chartreuse; width: 200px; height: 50px; text-align: center;">
+        <a href="update_block" style="color: black; font-size: 20px; text-decoration: none;">
+            Update Block
+        </a>
+    </button>
+    <br><br>
+    <button style="background: chartreuse; width: 200px; height: 50px; text-align: center;">
+        <a href="delete" style="color: black; font-size: 20px; text-decoration: none;">
+            Delete Block
+        </a>
+    </button>
+     <br><br>
+    <button style="background: chartreuse; width: 200px; height: 50px; text-align: center;">
+        <a href="/" style="color: black; font-size: 20px; text-decoration: none;">
+            Exit
+        </a>
+    </button>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>

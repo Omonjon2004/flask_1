@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New block</title>
+</head>
+<body>
+<h2> New block</h2>
+<form method="post">
+ <h3>Title</h3>
+<input type="text" name="title" >
+<br>
+ <h3>Body</h3>
+<textarea name="body" style="width: 400px ; height: 400px"></textarea>
+ <br><br>
+<button type="submit" style="width: 200px;height: 75px;background:orange;text-align:center;" > Create </button>
+    {%if message %}
+  <button type="submit" style="width: 200px;height: 75px;background:darkgrey;text-align:center;" > {{message}}</button>
+{%endif%}
+</form>
+
+</body>
+</html>
